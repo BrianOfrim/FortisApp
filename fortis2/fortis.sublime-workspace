@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"Page",
+				"PageOptionsForm"
+			],
+			[
+				"page",
+				"pageNames"
+			],
+			[
+				"panel",
+				"panel_info"
+			],
+			[
+				"pan",
+				"panelsToRemove"
+			],
+			[
 				"pane",
 				"panel_info"
 			],
@@ -35,31 +51,7 @@
 			"file": "fortis2/urls.py",
 			"settings":
 			{
-				"buffer_size": 810,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "fortis2/settings.py",
-			"settings":
-			{
-				"buffer_size": 2704,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "panelpage/models.py",
-			"settings":
-			{
-				"buffer_size": 948,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "panelpage/forms.py",
-			"settings":
-			{
-				"buffer_size": 719,
+				"buffer_size": 1199,
 				"line_ending": "Unix"
 			}
 		},
@@ -67,7 +59,47 @@
 			"file": "panelpage/templates/home.html",
 			"settings":
 			{
-				"buffer_size": 1380,
+				"buffer_size": 661,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "fortis2/settings.py",
+			"settings":
+			{
+				"buffer_size": 3008,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "panelpage/models.py",
+			"settings":
+			{
+				"buffer_size": 1236,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "panelpage/templates/worker.html",
+			"settings":
+			{
+				"buffer_size": 419,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "panelpage/forms.py",
+			"settings":
+			{
+				"buffer_size": 1249,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "panelpage/templates/office.html",
+			"settings":
+			{
+				"buffer_size": 2053,
 				"line_ending": "Unix"
 			}
 		},
@@ -75,7 +107,7 @@
 			"file": "panelpage/views.py",
 			"settings":
 			{
-				"buffer_size": 450,
+				"buffer_size": 1332,
 				"line_ending": "Unix"
 			}
 		},
@@ -117,7 +149,7 @@
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -131,6 +163,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"home"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -148,7 +181,7 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 7,
 			"sheets":
 			[
 				{
@@ -156,41 +189,15 @@
 					"file": "fortis2/urls.py",
 					"settings":
 					{
-						"buffer_size": 810,
+						"buffer_size": 1199,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								807,
-								807
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "fortis2/settings.py",
-					"settings":
-					{
-						"buffer_size": 2704,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2525,
-								2525
+								949,
+								949
 							]
 						],
 						"settings":
@@ -200,32 +207,62 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 982.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "panelpage/models.py",
+					"buffer": 1,
+					"file": "panelpage/templates/home.html",
 					"settings":
 					{
-						"buffer_size": 948,
+						"buffer_size": 661,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								900,
-								900
+								630,
+								630
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Python/Python.tmLanguage"
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 1.0,
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "fortis2/settings.py",
+					"settings":
+					{
+						"buffer_size": 3008,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								333,
+								333
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
@@ -233,25 +270,26 @@
 				},
 				{
 					"buffer": 3,
-					"file": "panelpage/forms.py",
+					"file": "panelpage/models.py",
 					"settings":
 					{
-						"buffer_size": 719,
+						"buffer_size": 1236,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								144,
-								208
+								1230,
+								1230
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Python/Python.tmLanguage"
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
-						"translation.x": 0.0,
+						"translation.x": 170.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
@@ -259,49 +297,25 @@
 				},
 				{
 					"buffer": 4,
-					"file": "panelpage/templates/home.html",
+					"file": "panelpage/templates/worker.html",
 					"settings":
 					{
-						"buffer_size": 1380,
+						"buffer_size": 419,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1357,
-								1357
+								402,
+								402
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 157.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "panelpage/views.py",
-					"settings":
-					{
-						"buffer_size": 450,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								232,
-								232
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage"
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -310,7 +324,89 @@
 					"type": "text"
 				},
 				{
+					"buffer": 5,
+					"file": "panelpage/forms.py",
+					"settings":
+					{
+						"buffer_size": 1249,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								884,
+								884
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 7.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
 					"buffer": 6,
+					"file": "panelpage/templates/office.html",
+					"settings":
+					{
+						"buffer_size": 2053,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1133,
+								1133
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 442.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "panelpage/views.py",
+					"settings":
+					{
+						"buffer_size": 1332,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								340,
+								340
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 2.0,
+						"translation.y": 20.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
 					"file": "panelpage/admin.py",
 					"settings":
 					{

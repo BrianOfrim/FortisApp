@@ -1,10 +1,28 @@
 from django.shortcuts import render
-from .forms import EnterPanelForm
-from .models import EnterPanel
+from django.http import HttpResponseRedirect, HttpResponse
+from .forms import EnterPanelForm, PageOptionsForm
+from .models import EnterPanel, PageOptions
 # Create your views here.
 
-
 def home(request):
+	form = PageOptionsForm(request.POST or None)
+	context = {
+	"form":form,
+	}
+
+	if 'enter' in request.POST:
+		print(request.POST)
+		selected_choice = request.POST["pageChoice"]
+		print(selected_choice)
+
+		# instance = form.save(commit = False)
+		print(selected_choice)
+		return HttpResponseRedirect(selected_choice)
+	return render(request,"home.html", context)
+
+
+
+def office(request):
 
 	form = EnterPanelForm(request.POST or None)
 	panel_info = EnterPanel.objects.all()
@@ -15,7 +33,7 @@ def home(request):
 	if 'enter' in request.POST:
 		if form.is_valid():
 			instance = form.save(commit = False)
-			if instance.panelSublocation != "":
+			if (instance.panelSublocation != "") and (instance.panelLocation[0] == "R"):
 				instance.panelLocation += "-"+instance.panelSublocation
 			instance.save()
 			# print("ID = {}".format(instance.id))
@@ -27,4 +45,8 @@ def home(request):
 	 		# print(panel)
 
 	# print("Request = {}".format(request.POST.getlist("choices")))
-	return render(request, "home.html", context)
+	return render(request, "office.html", context)
+
+def worker(request):
+
+	return render(request,"worker.html",[])

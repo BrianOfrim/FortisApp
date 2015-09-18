@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Fortis Panel App</title>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    {% load staticfiles %}
+    <link rel="stylesheet" href="{% static "css/fortiscss.css" %}" type="text/css">
+  </head>
+  <body>
+<h1 align = "center">Fortis Panel App</h1>
+<hr>
+<div class = "container">
+  <div class  = "row">
+    <div class = "col-md-6">
+	   <form method = 'POST' action = ''> {% csrf_token %}
+
+		  {{form.as_p}}	
+
+		  <button type = 'submit' name = "enter"> Enter Panel</button>
+
+	   </form>
+   </div>
+   <div class = "col-md-6">
+    
+    <img src="{% static "img/FactoryLayout.PNG" %}" alt="My image"/>
+  </div>
+</div>
+</div>
+		<form method = 'POST' action = ''> {% csrf_token %}
+      <hr>
+      <hr>
+			<div class = "container">
+              <table class = "table table-striped">
+                  <tr>
+                      <th>Shipment</th>
+                      <th>Panel Name</th>
+                      <th>Panel Location</th>
+                      <th>Panel Entry Time</th>
+                      <th>General Notes</th>
+                      <th>Crew Info</th>
+                      <th><button type="submit" name="delete">Delete</button></th>
+                      <th></th>
+
+                  </tr>
+                  {% for detail in panel_detail %}
+                  <tr>
+
+                      
+                      <td>{{detail.shipment}}</td>
+                      <td>{{detail.panelName}}</td>
+                      <td>{{detail.panelLocation}}</td>
+                      <td>{{detail.timestamp}}</td>
+                      <td>{{detail.generalNotes}}</td>
+                      <td>{{detail.crewInfo}}</td>
+                     <td><input type = "checkbox" value = "{{detail.id}}" name = "choices"></td>
+                     <td>{{detail.panelSublocaion}}</td>
+                      
+                  </tr>
+                  {% endfor %}
+              </table>
+</div>
+</body>
+
+</html>

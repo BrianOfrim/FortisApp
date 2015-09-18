@@ -11,12 +11,18 @@ class EnterPanel(models.Model):
 	panelName = models.CharField(null = False,max_length = 120)
 	shipment = models.CharField(max_length = 2,choices = [(str(x),str(x)) for x in range(1,32)])
 	panelLocation = models.CharField(max_length = 15, choices = [(i,i) for i in panelLocations])
-	panelSublocation = models.CharField(max_length = 2, choices = [(str(i),str(i)) for i in range (1,13)], blank = True,default = "") 
+	panelSublocation = models.CharField(max_length = 2, choices = [(str(i),str(i)) for i in range (1,13)], blank = True,default = "  ") 
 	generalNotes  = models.CharField(null = True, max_length = 200)
 	crewInfo = models.CharField(null = True, max_length = 200)
 	timestamp = models.DateTimeField(auto_now_add = True, auto_now = False)
 	def __str__(self):
 		return self.panelName
+
+
+class PageOptions(models.Model):
+	pageNames = ['office', 'worker' ]
+	pageChoice = models.CharField(max_length = 20, choices = [(str(i),str(i)) for i in pageNames])
+
 
 
 

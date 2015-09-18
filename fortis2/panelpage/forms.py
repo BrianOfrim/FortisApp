@@ -1,12 +1,20 @@
 from django import forms
-from .models import EnterPanel
+from .models import EnterPanel, PageOptions
 
 
 class EnterPanelForm(forms.ModelForm):
 	class Meta:
 		model = EnterPanel
 		fields =  ['shipment','panelName','panelLocation','panelSublocation','generalNotes','crewInfo']
+		widgets = {
+		'shipment' : forms.Select(attrs={'class': 'inputClass' }),
+		'panelName' : forms.TextInput(attrs={'class': 'inputClass' }),
+		'panelLocation' : forms.Select(attrs={'class': 'inputClassDD' }),
+		'panelSublocation' : forms.Select(attrs={'class': 'inputClass' }),
+		'generalNotes': forms.TextInput(attrs={'class': 'inputClass' }),
+		'crewInfo': forms.TextInput(attrs={'class': 'inputClass' }),
 
+		}
 
 	def clean_shipment(self):
 		shipment = self.cleaned_data.get('shipment')
@@ -31,6 +39,17 @@ class EnterPanelForm(forms.ModelForm):
 	def clean_crewInfo(self):
 		crewInfo = self.cleaned_data.get('crewInfo')
 		return crewInfo
+
+
+
+
+class PageOptionsForm(forms.ModelForm):
+	class Meta:
+		model = PageOptions
+		fields = ["pageChoice"]
+
+	def clean_pageChoice(self):
+		pageChoice = self.cleaned_data.get('pageChoice')
 
 
 
