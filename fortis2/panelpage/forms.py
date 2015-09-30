@@ -41,8 +41,6 @@ class EnterPanelForm(forms.ModelForm):
 		return crewInfo
 
 
-
-
 class PageOptionsForm(forms.ModelForm):
 	class Meta:
 		model = PageOptions
@@ -50,6 +48,8 @@ class PageOptionsForm(forms.ModelForm):
 
 	def clean_pageChoice(self):
 		pageChoice = self.cleaned_data.get('pageChoice')
+
+
 
 
 
