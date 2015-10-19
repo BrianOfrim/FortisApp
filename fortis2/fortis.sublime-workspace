@@ -48,74 +48,83 @@
 	"buffers":
 	[
 		{
+			"file": "fortis2/settings/__init__.py",
+			"settings":
+			{
+				"buffer_size": 131,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "requirements.txt",
+			"settings":
+			{
+				"buffer_size": 113,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "runtime.txt",
+			"settings":
+			{
+				"buffer_size": 13,
+				"line_ending": "Unix",
+				"name": "python-3.4.3"
+			}
+		},
+		{
+			"file": "fortis2/wsgi.py",
+			"settings":
+			{
+				"buffer_size": 487,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": ".gitignore",
+			"settings":
+			{
+				"buffer_size": 764,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "fortis2/settings/production.py",
+			"settings":
+			{
+				"buffer_size": 3813,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Procfile",
+			"settings":
+			{
+				"buffer_size": 28,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "fortis2/settings/base.py",
+			"settings":
+			{
+				"buffer_size": 3304,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "fortis.sublime-project",
+			"settings":
+			{
+				"buffer_size": 207,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "fortis2/urls.py",
 			"settings":
 			{
-				"buffer_size": 1199,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "panelpage/templates/home.html",
-			"settings":
-			{
-				"buffer_size": 661,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "fortis2/settings.py",
-			"settings":
-			{
-				"buffer_size": 3008,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "panelpage/models.py",
-			"settings":
-			{
-				"buffer_size": 1236,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "panelpage/templates/worker.html",
-			"settings":
-			{
-				"buffer_size": 419,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "panelpage/forms.py",
-			"settings":
-			{
-				"buffer_size": 1249,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "panelpage/templates/office.html",
-			"settings":
-			{
-				"buffer_size": 2053,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "panelpage/views.py",
-			"settings":
-			{
-				"buffer_size": 1332,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "panelpage/admin.py",
-			"settings":
-			{
-				"buffer_size": 300,
+				"buffer_size": 1202,
 				"line_ending": "Unix"
 			}
 		}
@@ -144,6 +153,24 @@
 	},
 	"file_history":
 	[
+		"/Users/brianofrim/learning1/fortis2/fortis2/manage.py",
+		"/Users/brianofrim/learning1/fortis2/fortis2/fortis2/__init__.py",
+		"/Users/brianofrim/learning1/fortis2/fortis2/fortis2/settings/production.py",
+		"/Users/brianofrim/learning1/fortis2/fortis2/fortis2/settings/local.py",
+		"/Users/brianofrim/learning1/fortis2/fortis2/__init__.py",
+		"/Users/brianofrim/learning1/fortis2/fortis2/panelpage/admin.py",
+		"/Users/brianofrim/learning1/fortis2/fortis2/panelpage/views.py",
+		"/Users/brianofrim/learning1/fortis2/fortis2/panelpage/templates/office.html",
+		"/Users/brianofrim/learning1/fortis2/fortis2/panelpage/forms.py",
+		"/Users/brianofrim/learning1/fortis2/fortis2/panelpage/templates/worker.html",
+		"/Users/brianofrim/learning1/fortis2/fortis2/panelpage/models.py",
+		"/Users/brianofrim/learning1/fortis2/fortis2/.gitignore",
+		"/Users/brianofrim/learning1/fortis2/fortis2/fortis2/settings/base.py",
+		"/Users/brianofrim/learning1/fortis2/fortis2/Procfile",
+		"/Users/brianofrim/learning1/fortis2/fortis2/fortis2/settings/__init__.py",
+		"/Users/brianofrim/learning1/fortis2/fortis2/fortis2/old_settings.py",
+		"/Users/brianofrim/learning1/fortis2/fortis2/panelpage/templates/home.html",
+		"/Users/brianofrim/learning1/fortis2/fortis2/fortis2/urls.py",
 		"/Users/brianofrim/learning1/tryDjango/tryDjango/newsletter/templates/home.html",
 		"/Users/brianofrim/learning1/webServer.py"
 	],
@@ -163,6 +190,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"pass",
 			"home"
 		],
 		"highlight": true,
@@ -181,30 +209,28 @@
 	"groups":
 	[
 		{
-			"selected": 7,
+			"selected": 5,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "fortis2/urls.py",
+					"file": "fortis2/settings/__init__.py",
 					"settings":
 					{
-						"buffer_size": 1199,
+						"buffer_size": 131,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								949,
-								949
+								20,
+								20
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/Python/Python.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -214,25 +240,23 @@
 				},
 				{
 					"buffer": 1,
-					"file": "panelpage/templates/home.html",
+					"file": "requirements.txt",
 					"settings":
 					{
-						"buffer_size": 661,
+						"buffer_size": 113,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								630,
-								630
+								13,
+								13
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -242,25 +266,24 @@
 				},
 				{
 					"buffer": 2,
-					"file": "fortis2/settings.py",
+					"file": "runtime.txt",
 					"settings":
 					{
-						"buffer_size": 3008,
+						"buffer_size": 13,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								333,
-								333
+								13,
+								13
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"auto_name": "python-3.4.3",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -270,26 +293,25 @@
 				},
 				{
 					"buffer": 3,
-					"file": "panelpage/models.py",
+					"file": "fortis2/wsgi.py",
 					"settings":
 					{
-						"buffer_size": 1236,
+						"buffer_size": 487,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1230,
-								1230
+								354,
+								354
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/Python/Python.tmLanguage"
 						},
-						"translation.x": 170.0,
+						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
@@ -297,25 +319,23 @@
 				},
 				{
 					"buffer": 4,
-					"file": "panelpage/templates/worker.html",
+					"file": ".gitignore",
 					"settings":
 					{
-						"buffer_size": 419,
+						"buffer_size": 764,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								402,
-								402
+								25,
+								25
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -325,105 +345,134 @@
 				},
 				{
 					"buffer": 5,
-					"file": "panelpage/forms.py",
+					"file": "fortis2/settings/production.py",
 					"settings":
 					{
-						"buffer_size": 1249,
+						"buffer_size": 3813,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								884,
-								884
+								3098,
+								3098
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/Python/Python.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 7.0,
+						"translation.y": 1299.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 6,
-					"file": "panelpage/templates/office.html",
+					"file": "Procfile",
 					"settings":
 					{
-						"buffer_size": 2053,
+						"buffer_size": 28,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1133,
-								1133
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 442.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 7,
-					"file": "panelpage/views.py",
+					"file": "fortis2/settings/base.py",
 					"settings":
 					{
-						"buffer_size": 1332,
+						"buffer_size": 3304,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								340,
-								340
+								2507,
+								2274
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/Python/Python.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 2.0,
-						"translation.y": 20.0,
+						"translation.x": 0.0,
+						"translation.y": 949.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 8,
-					"file": "panelpage/admin.py",
+					"file": "fortis.sublime-project",
 					"settings":
 					{
-						"buffer_size": 300,
+						"buffer_size": 207,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								219,
-								219
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Python/Python.tmLanguage"
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "fortis2/urls.py",
+					"settings":
+					{
+						"buffer_size": 1202,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1038,
+								1038
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,

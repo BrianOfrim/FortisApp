@@ -1,9 +1,13 @@
 db.sqlite3
 .DS_Store
+
+ fortis2/settings/local.py
+ 
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
+
 
 # C extensions
 *.so
